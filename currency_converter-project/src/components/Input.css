@@ -1,0 +1,42 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    padding: 0.8vmax 1vmax;
+    border-radius: 10px;
+}
+
+.right{
+    justify-self: end;
+}
+
+.left, .right{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vmax;
+}
+
+.container label{
+    font-size: 1vmax;
+    font-weight: bold;
+    color: gray
+}
+
+.container input, .container select{
+    border: none;
+    outline: none;
+    background-color: gainsboro;
+    border-radius: 10px;
+}
+
+.container input{
+    font-size: 1.1vmax;
+    padding: 0.7vmax;
+}
+
+.container select{
+    width: 100%;
+    padding: 0.3vmax;
+    cursor: pointer;
+    font-weight: bold;
+}

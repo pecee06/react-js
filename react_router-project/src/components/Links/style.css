@@ -1,0 +1,18 @@
+.links-card{
+    display: flex;
+    flex-direction: column;
+}
+
+.links-card h5{
+    text-transform: uppercase;
+    font-size: 1.2vmax;
+}
+
+.links-card li{
+    list-style: none;
+    font-size: 1.1vmax;
+    margin: 0.3vmax 0;
+    cursor: pointer;
+    width: fit-content;
+    text-decoration: underline;
+}

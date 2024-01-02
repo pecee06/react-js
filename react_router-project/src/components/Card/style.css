@@ -1,0 +1,22 @@
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 89vh;
+}
+
+.card-container .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+
+.card-container .text h1{
+    font-size: 3.5vmax;
+}
+
+.card-container .text li{
+    font-size: 1.1vmax;
+}

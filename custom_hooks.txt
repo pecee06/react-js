@@ -1,0 +1,5 @@
+Hooks in React are nothing but functions that generally use default hooks themselves. They can return arbitrary values
+
+Custom Hooks let you share stateful logic but not state itself. Each call to a Hook is completely independent from every other call to the same Hook
+
+They're used for abstraction purpose, to show the intent rather than implementation

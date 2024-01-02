@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3vmax;
+    align-items: flex-end;
+    position: relative;
+    overflow: visible;
+    width: fit-content;
+}
+
+.container p{
+    font-size: 1.2vmax;
+    padding: 0.9vmax 1.5vmax;
+    background-color: darkslategrey;
+    color: white;
+}
+
+.circle{
+    width: 52px;
+    height: 52px;
+    background-color: orange;
+    border-radius: 50%;
+    position: absolute;
+    left: -34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

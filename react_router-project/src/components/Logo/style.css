@@ -1,0 +1,8 @@
+#logo-para{
+    font-size: 2vmax;
+}
+
+#logo-para span{
+    text-transform: uppercase;
+    font-weight: bold;
+}

@@ -1,0 +1,8 @@
+button{
+    border: none;
+    outline: none;
+    font-size: 1.2vmax;
+    cursor: pointer;
+    padding: 0.7vmax;
+    text-transform: uppercase;
+}

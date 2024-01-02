@@ -1,0 +1,30 @@
+.home-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 89vh;
+}
+
+.home-container .left{
+    display: flex;
+    flex-direction: column;
+    gap: 1vmax;
+    width: 40%;
+}
+
+.home-container .left h1{
+    font-size: 3.5vmax;
+}
+
+.home-container .left p{
+    font-size: 1.5vmax;
+}
+
+.home-container .left button:hover{
+    background-color: rgb(26, 25, 25);
+}
+
+.home-container img{
+    width: 40%;
+}

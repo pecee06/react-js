@@ -1,0 +1,18 @@
+.screen{
+    width: 50vw;
+    height: 50vh;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vmax;
+}
+
+button{
+    border: none;
+    background-color: crimson;
+    color: white;
+    padding: 0.5vmax 1vmax;
+    cursor: pointer;
+    margin: 1vmax 3vmax;
+}

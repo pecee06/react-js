@@ -1,0 +1,36 @@
+Why React?
+
+React is a Frontend library which is useful in building complex frontend
+
+It supports SPA (Single Page Applications) by its very nature. Routing is not possible with React.
+Then how to do routing?
+We'll see when needed
+
+At the end of the day, React code also compiles to plain HTML, CSS and JS. So there's no such thing you can't do without React, still it smooths up the development process and ease up frontend management
+
+For web-D we require 2 dependencies - react & react-dom
+
+We'll be using vite as a bundler
+
+Get started - npm create vite@latest
+Then follow the prompts!
+
+By default there won't be a node-modules directory, you have to install the required dependencies
+-> npm i
+
+Your entry point should be package.json
+Read it, try to understand
+
+The scripts object contains commands which can be used
+-> npm run <command>
+
+To serve on localhost - "npm run dev" (default port - 5173)
+* Auto reload is enabled
+
+Most importantly, you should know how to clear the clutter of a react-project-folder
+
+React provides us with the capability of writing HTML using JS. This is called as JSX
+
+We can create out HTML components and export them
+
+The component names should being with capital letter

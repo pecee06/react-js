@@ -1,0 +1,13 @@
+React provides us with many hooks -
+
+ * useState - used for dealing with variables and their state in the DOM
+ * useEffect - used for executing a function on changing of parameters
+ * useCallback - used for optimizing the performance by caching a function reference so that it doesn't have to be recreated on every render
+ * useRef
+
+You can create your own hooks as well
+
+Hooks are JavaScript functions, but they impose two additional rules:
+
+ * Only call Hooks at the top level. Don’t call Hooks inside loops, conditions, or nested functions.
+ * Only call Hooks from React function components. Don’t call Hooks from regular JavaScript functions.

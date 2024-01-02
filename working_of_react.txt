@@ -1,0 +1,13 @@
+The createRoot method of React creates a virtual DOM (Tree structure)
+
+It uses reconciliation algorithm to differentiate one tree with another (Real DOM with virtual DOM) and changes that part only which has some updates, rather than reloading the entire DOM
+
+Nowadays Fiber has enhanced the entire reconciliation process in following way:
+
+* In a UI, it's not necessary for every update to be applied immediately, it can cause frame drops thus degrading UX. So Fiber make changes in chunks
+
+Features of Fiber:
+* Pause work and come back to it lately
+* Assign priority to different types of work
+* Reuse previous work
+* Abort work if no longer needed

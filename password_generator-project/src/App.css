@@ -1,0 +1,54 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  border: 5px solid brown;
+  background-color: whitesmoke;
+  padding: 1vmax;
+  border-radius: 10px;
+  min-width: 50vw;
+}
+
+.display{
+  border: 1.5px solid darkslateblue;
+  border-radius: 5px;
+  padding: 0.5vmax;
+  font-size: 1.3vmax;
+  width: 100%;
+  height: 40px;
+}
+
+.flex{
+  display: flex;
+}
+.gap{
+  gap: 1vmax;
+}
+.justify-center{
+  justify-content: center;
+}
+.align-center{
+  align-items: center;
+}
+
+button{
+  border: none;
+  background-color: rosybrown;
+  padding: 0.4vmax 1vmax;
+  font-size: 1.1vmax;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 5px;
+  height: fit-content;
+  transition: all ease 0.2s;
+}
+
+.top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1vmax;
+}
+
+.coral{
+  background-color: coral;
+}
