@@ -59,7 +59,7 @@ export default function App(){
   },[todos]);
 
   return(
-    <TodoContext.Provider value={{todos,addTodo,editTodo,deleteTodo,toggleTodo}}>
+    <TodoContext.Provider value={{addTodo,editTodo,deleteTodo,toggleTodo}}>
       <TodoForm/>
       <hr />
       <div id="todo-items" style={{
