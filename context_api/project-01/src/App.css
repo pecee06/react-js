@@ -1,0 +1,16 @@
+button{
+    border: none;
+    outline: none;
+    background-color: rgb(126, 32, 32);
+    font-size: 1.5vmax;
+    padding: 0.8vmax;
+    color: white;
+    margin: 2vmax;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all ease 0.2s;
+}
+
+button:hover{
+    background-color: rgb(168, 32, 32);
+}

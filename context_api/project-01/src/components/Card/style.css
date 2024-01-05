@@ -1,0 +1,13 @@
+.card-container{
+    display: flex;
+    width: 60%;
+    align-items: center;
+    gap: 1vmax;
+    border: 1px solid maroon;
+    margin: 1vmax auto;
+    padding: 1vmax;
+}
+
+.card-container img{
+    width: 35%;
+}
