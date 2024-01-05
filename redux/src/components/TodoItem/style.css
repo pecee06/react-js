@@ -1,0 +1,49 @@
+#todo-item {
+  display: flex;
+}
+
+#todo-item #todo-task {
+  width: 45vw;
+  font-size: large;
+  outline: none;
+  padding: 0.5vmax 1vmax;
+  color: black;
+  /* background-color: rgb(203, 191, 252); */
+  font-weight: bold;
+  transition: all ease 0.2s;
+  border: none;
+}
+
+#todo-item #completed{
+    height: 42px;
+    width: 42px;
+    cursor: pointer;
+}
+
+#todo-item button {
+  font-size: large;
+  border: none;
+  outline: none;
+  padding: 0.5vmax 1vmax;
+  cursor: pointer;
+  color: rgb(220, 212, 253);
+  transition: all ease 0.2s;
+}
+
+#todo-item .edit-btn {
+  background-color: rgb(93, 72, 211);
+}
+
+#todo-item .edit-btn:hover {
+  background-color: mediumslateblue;
+}
+
+#todo-item .delete-btn {
+  background-color: red;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+#todo-item .delete-btn:hover {
+  background-color: rgb(236, 25, 25);
+}
