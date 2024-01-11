@@ -1,0 +1,8 @@
+.Box{
+    font-size: 2vmax;
+    font-weight: bold;
+    border: 1px solid black;
+    cursor: pointer;
+    height: fit-content;
+    padding: 1vmax 2vmax;
+}

@@ -1,0 +1,15 @@
+.HomeScreen{
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.HomeScreen img{
+    width: 85%;
+}
+
+.HomeScreen h1{
+    text-transform: uppercase;
+    font-size: 7vmax;
+}

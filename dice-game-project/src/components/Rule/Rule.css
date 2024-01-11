@@ -1,0 +1,9 @@
+#rule-container{
+    display: flex;
+    flex-direction: column;
+    background-color: peachpuff;
+    gap: 2vmax;
+    margin: 1vmax auto;
+    width: 60%;
+    padding: 3vmax;
+}
