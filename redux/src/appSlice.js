@@ -1,13 +1,11 @@
 import { createSlice, nanoid } from "@reduxjs/toolkit";
 // nanoid generates a unique ID
 
-const initialState = {  // initial state of store
-    todos: []   // array of objects with keys - id & task
-};
-
 export const appSlice = createSlice({
     name: "todo",
-    initialState,
+    initialState: {
+        todos: []
+    },
     reducers: {
         addTodo: (state, action)=>{
             const todo = {
@@ -17,9 +15,7 @@ export const appSlice = createSlice({
             state.todos.push(todo); // state represent previous state of our store
         },
         removeTodo: (state, action)=>{
-            state.todos = state.todos.filter(todo => {
-                return todo.id != action.payload;
-            });
+            state.todos = state.todos.filter(todo => todo.id != action.payload);
         },
         updateTodo: (state, action)=>{
             state.todos = state.todos.map(todo => {

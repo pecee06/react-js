@@ -1,0 +1,22 @@
+.input-icon{
+    width: 25px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 3px;
+    transition: all ease 0.2s;
+    cursor: pointer;
+}
+
+.input-icon:hover{
+    background-color: lightseagreen;
+}
+
+.input{
+    border: none;
+    outline: none;
+    font-size: 1.1vmax;
+    padding: 0.5vmax 1vmax;
+    font-weight: 300;
+    width: 100%;
+    margin-left: 1vmax;
+}

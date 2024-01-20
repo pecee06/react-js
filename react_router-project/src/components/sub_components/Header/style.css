@@ -1,0 +1,19 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2vmax 3vmax;
+    align-items: center;
+}
+
+header .tabs{
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 5vmax;
+}
+
+header .tabs a{
+    /* NavLink is styled as anchor tag only */
+    text-decoration: none;
+    font-size: 1.2vmax;
+}

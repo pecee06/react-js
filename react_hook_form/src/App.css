@@ -1,0 +1,8 @@
+#app-container{
+  height: 100vh;
+  background-color: #f9eaba;
+  background-image: linear-gradient(148deg, #f9eaba 0%, #32b198 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

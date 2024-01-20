@@ -3,9 +3,7 @@ import {TodoForm, TodoItem} from "./components/index";
 import { useSelector } from "react-redux";
 
 export default function App(){
-    const todos = useSelector(state => {
-        return state.todos;
-    });
+    const todos = useSelector(state => state.app.todos);
 
   return(
     <>

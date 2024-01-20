@@ -1,0 +1,65 @@
+#form-container{
+    background-color: rgba(230, 229, 229, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 2vmax;
+    gap: 2vmax;
+    color: rgb(73, 73, 73);
+}
+
+#form-container .text{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vmax;
+    align-items: center;
+}
+
+#form-container .text h1{
+    font-size: 4vmax;
+}
+#form-container .text p{
+    font-size: 1.2vmax;
+}
+
+#form-container form div{
+    display: flex;
+    align-items: center;
+    margin: 1vmax 0;
+}
+
+#form-container > p{
+    font-size: 1.1vmax;
+}
+
+#form-container form .btn{
+    width: 100%;
+    padding: 0.7vmax 0;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    background-color: seagreen;
+    color: white;
+    cursor: pointer;
+    transition: all ease 0.2s;
+    letter-spacing: 1px;
+    margin-top: 2vmax;
+}
+
+#form-container form .btn:hover{
+    background-color: rgb(54, 173, 106);
+}
+
+.errMsg{
+    position: absolute;
+    font-weight: 300;
+    pointer-events: none;
+    top: 0;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    font-size: 2vmax;
+    background-color: cadetblue;
+    padding: 1vmax 0;
+}

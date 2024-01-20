@@ -1,0 +1,53 @@
+#signup-container{
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2vmax 0;
+}
+
+#signup-container form{
+    background: url("../../assets/svgs/formBg.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: color-burn;
+    display: flex;
+    flex-direction: column;
+    padding: 3vmax;
+    border-radius: 10px;
+    justify-content: space-between;
+    width: 40%;
+    height: 80vh;
+}
+
+#signup-container input{
+    border: none;
+    outline: none;
+    font-size: 1.1vmax;
+    padding: 0.8vmax;
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255, 0.7);
+    transition: all ease 0.2s;
+}
+
+#signup-container input:focus{
+    background-color: white;
+}
+
+#signup-container > div{
+    width: 40%;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1vmax;
+}
+
+.error{
+    color: red;
+    font-size: 1.3vmax;
+}

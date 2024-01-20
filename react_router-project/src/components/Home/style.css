@@ -28,3 +28,11 @@
 .home-container img{
     width: 40%;
 }
+
+.flex-col{
+    flex-direction: column;
+}
+
+.gap{
+    gap: 2vmax;
+}
