@@ -1,5 +1,5 @@
 import "./App.css"
-import { useCallback, useEffect, useRef, useState } from "react"
+import { useEffect, useRef, useState } from "react"
 import Input from "./components/Input/Input"
 
 export default function App() {
@@ -12,7 +12,7 @@ export default function App() {
   const [numsAllowed, setNumsAllowed] = useState(false)
   const [specialAllowed, setSpecialAllowed] = useState(false)
 
-  const generatePassword = useCallback(()=>{
+  const generatePassword = ()=>{
     let domain = "";
     let i = 65
     while (i<=122){
@@ -37,16 +37,24 @@ export default function App() {
     }
 
     setPassword(pass)
-  }, [passLen, numsAllowed, specialAllowed])
+  }
 
-  useEffect(generatePassword, [passLen, numsAllowed, specialAllowed])
+  useEffect(generatePassword,[passLen, numsAllowed, specialAllowed])  // some issue in here
 
   return(
     <div id="app-container">
       <div className="main">
         <h1>Password Generator</h1>
         <div className="display">
-          <Input ref={passwordRef} type="text" value={password} readOnly={true}/>
+          <Input ref={passwordRef} type="text" value={password} readOnly style={{
+            border: "none",
+            outline: "none",
+            padding: "0.5vmax 1vmax",
+            fontSize: "1.1vmax",
+            borderRadius: "7px",
+            width: "70%"
+          }} />
+          
           <button onClick={()=>{
             window.navigator.clipboard.writeText(password)
             setCopied(true)
@@ -55,9 +63,17 @@ export default function App() {
         </div>
 
         <div className="generator">
-          <Input label={`Length: ${passLen}`} type="range" min={minLength} max={maxLength} value={passLen} onChange={e => setPassLen(e.target.value)}/>
-          <Input label="Numbers" type="checkbox" checked={numsAllowed} onChange={() => setNumsAllowed(prev => !prev)}/>
-          <Input label="Special Characters" type="checkbox" checked={specialAllowed} onChange={() => setSpecialAllowed(prev => !prev)}/>
+          <div>
+            <Input label={`Length: ${passLen}`} type="range" min={minLength} max={maxLength} value={passLen} onChange={e => setPassLen(e.target.value)}/>
+          </div>
+
+          <div>
+            <Input label="Numbers" type="checkbox" checked={numsAllowed} onChange={() => setNumsAllowed(prev => !prev)}/>
+          </div>
+
+          <div>
+            <Input label="Special Characters" type="checkbox" checked={specialAllowed} onChange={() => setSpecialAllowed(prev => !prev)}/>
+          </div>
         </div>
       </div>
     </div>

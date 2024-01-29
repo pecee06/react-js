@@ -5,3 +5,25 @@
   justify-content: center;
   align-items: center;
 }
+
+#app-container .display{
+  display: flex;
+  gap: 1vmax;
+}
+
+#app-container .display button{
+  font-size: 1.2vmax;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+  padding: 1vmax;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
+
+#app-container .generator{
+  display: flex;
+  gap: 1vmax;
+}

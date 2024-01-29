@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.themeBg{
+    @apply bg-gray-800;
+}
+
+.themeTxt{
+    @apply text-gray-800;
+}
+
+.btn{
+    @apply cursor-pointer themeBg text-white py-2 rounded-md text-sm font-bold hover:bg-gray-700;
+}
+
+.error_msg{
+    @apply text-red-600 text-sm
+}
+
+.custom_border{
+    @apply border border-solid border-gray-800
+}
