@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    @apply overflow-x-hidden;
+}
+
+.btn {
+  @apply font-bold text-white text-sm px-4 py-2 rounded-md;
+}
+
+::webkit-scrollbar {
+  @apply w-[4px];
+}
+
+::webkit-scrollbar-thumb {
+  @apply bg-[#cbd5e0] rounded-sm;
+}
+
+::webkit-scrollbar-thumb:hover {
+  @apply bg-[#a0aec0];
+}
+
+::webkit-scrollbar-track {
+  @apply bg-[#edf2f7] rounded-sm;
+}

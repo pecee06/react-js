@@ -24,5 +24,5 @@ Delete own blogs
 * **Redux** : For state management
 * **react-hook-form** : For managing forms
 * **react-router-dom** : For routing
-* **Appwrite** : For Backend As A Service (BAAS)
+* **Appwrite** : For BaaS
 * **.env** : For managing environment variables
