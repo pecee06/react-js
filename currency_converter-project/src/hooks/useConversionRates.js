@@ -6,7 +6,7 @@ export default function useConversionRates(code){
     useEffect(()=>{
         (async function fetchData() {
             try {
-                const res = await fetch(`https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/${code}.json`);
+                const res = await fetch(`https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/${code}.json`);
     
                 const jsonRes = await res.json();
                 
